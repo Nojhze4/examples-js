@@ -78,3 +78,46 @@ mostrar el resultado de las operaciones aritmeticas basicas según llamado
 suma, resta, multiplicación y división
 */
 
+/* leer 3 numeros y mostrar su promedio*/
+
+/*
+function printAverage(a, b, c){
+        const suma = a+b+c;
+        const average = suma /3;
+        console.log('El promedio es: ${average}');
+}
+        
+
+printAverage (10, 20, 30);
+*/
+
+/* Leer un nombre de usuario y una contraseña
+-Si el usuario es "Pepa" y la contraseña es "ABC123" mostrar "Bienvenida"
+-De otra manera mostrar "Acceso denegado"
+
+
+*/
+
+//pseudo-código
+
+//Inicio
+
+// entrada a = usuario
+// entrada b = contraseña
+// salida = "Bienvenida" o "Acceso denegado"
+
+// si el usuario + contraseña es correcto Bienvenida
+// si no lo es Acceso denegado
+//Final
+
+//Ejercicio 1
+
+function login(usuario, contraseña){
+        if (usuario === "Pepa" && contraseña === "ABC123"){
+                console.log("Bienvenida");
+        } else {
+                console.log("Acceso denegado");
+        }
+}       
+login("Pepa", "ABC123");
+
