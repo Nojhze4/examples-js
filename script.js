@@ -112,12 +112,28 @@ printAverage (10, 20, 30);
 
 //Ejercicio 1
 
-function login(usuario, contraseña){
-        if (usuario === "Pepa" && contraseña === "ABC123"){
-                console.log("Bienvenida");
-        } else {
-                console.log("Acceso denegado");
-        }
-}       
-login("Pepa", "ABC123");
+function login1(username, password) {
+  if (username === "pepa") {
+    if (password === "ABC123") {
+      console.log("Bienvenida");
+    } else {
+      console.log("Acceso denegado");
+    }
+  }
+  console.log("Acceso denegado");
+} console.log(login1);
 
+login1("pepa", "ABC123") 
+console.log(login1);
+
+function login2(username, password) {
+  if (username === 'pepe' && password) {
+      console.log("Bienvenida");
+    } else {
+      console.log("Acceso denegado");
+    }
+  console.log("Acceso denegado");
+  } console.log(login2);
+login2("pepa", "ABC123");
+login2("pepe", "ABC123");
+login2("pepo", "abc123");
